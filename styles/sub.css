@@ -1,0 +1,37 @@
+.avatar{
+	width:100px;
+}
+.wide-avatar{
+	width:150px;
+}
+.avatars{
+	position:absolute;
+	top:400px;
+	left:200px;
+}
+.room{
+	position:absolute;
+	width:700px;
+}
+.big-room{
+	position:absolute;
+	width:1000px;
+}
+.inventory{
+	position:absolute;
+	width:1000px;
+}
+.item{
+	width:80px;
+}
+.medium-item{
+	width:180px;
+}
+.big-item{
+	width:250px;
+}
+.mini-audio{
+	position:absolute;
+	top:0px;
+	width:50px;
+}

@@ -1,0 +1,39 @@
+#doodoos{
+	position:absolute;
+	left:1000px;
+	top:700px;
+}
+#avatars1{
+	position:absolute;
+	left:600px;
+	top:100px;
+	width:1200px;
+}
+#avatars2{
+	position:absolute;
+	left:1000px;
+	top:300px;
+	width:850px;
+}
+#places{
+	position:absolute;
+	width:300px;
+	left:50px;
+	top:400px;
+}
+.georgie{
+	position:absolute;
+	width:500px;
+	left:1300px;
+	top:500px;
+}
+#robbers{
+	position:absolute;
+	left:400px;
+	top:500px;
+}
+#things{
+	position:absolute;
+	left:300px;
+	top:900px;
+}

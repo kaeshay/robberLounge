@@ -33,3 +33,20 @@ if(hideCounter==0){
 	hideCounter=0;
 }
 }
+
+var partyCounter=0;
+function lightsOff(){
+	sound=document.getElementById("announcement");
+	map=document.getElementById("containment-wrapper");
+	foods=document.getElementById("foods");
+	if (partyCounter==0){
+		sound.play();
+		foods.style.display="block";
+		map.style.backgroundImage="url('assets/background-dark.jpeg')";
+		partyCounter=1;
+	}else if(partyCounter==1){
+		sound.pause();
+		map.style.backgroundImage="url('assets/background.jpeg')";
+		partyCounter=0;
+	}
+}

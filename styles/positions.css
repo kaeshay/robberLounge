@@ -1,7 +1,10 @@
 #doodoos{
 	position:absolute;
-	left:800px;
-	top:500px;
+	left:500px;
+	top:550px;
+}
+#doodoos img{
+	margin:-20px;
 }
 #avatars1{
 	position:absolute;
@@ -69,4 +72,10 @@
 }
 #party{
 	display:none;
+}
+#foods{
+	display:none;
+	position:absolute;
+	top:400px;
+	left:800px;
 }

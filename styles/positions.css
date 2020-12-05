@@ -34,7 +34,7 @@
 #robbers{
 	position:absolute;
 	left:400px;
-	top:500px;
+	top:400px;
 }
 #things{
 	position:absolute;
@@ -79,6 +79,6 @@
 #foods{
 	display:none;
 	position:absolute;
-	top:400px;
+	top:300px;
 	left:800px;
 }

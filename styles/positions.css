@@ -2,6 +2,7 @@
 	position:absolute;
 	left:500px;
 	top:550px;
+	width:1000px;
 }
 #doodoos img{
 	margin:-20px;
@@ -59,11 +60,13 @@
 	position:absolute;
 	top:800px;
 	left:750px;
+	width:1000px;
 }
 #gifts{
 	position:absolute;
-	top:720px;
+	top:750px;
 	left:700px;
+	width:1000px;
 }
 #mounie{
 	position:absolute;

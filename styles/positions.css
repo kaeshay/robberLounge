@@ -47,6 +47,7 @@
 	margin:-10px;
 }
 .georgie-bonnet{
+	position:absolute;
 	width:500px;
 	top:440px;
 	left:1300px;

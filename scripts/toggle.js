@@ -1,27 +1,35 @@
-var dayCounter;
-function nightTime(){
-	backgroundContainer=document.getElementById('containment-wrapper');
-	sun=document.getElementById('sun')
-	if(dayCounter == 0){
-		backgroundContainer.style.backgroundColor='black';
-		sun.src="assets/kay/moon.gif";
-		dayCounter++;
-	}
-	else{
-		backgroundContainer.style.backgroundColor='white';
-		sun.src="assets/kay/sun.png";	
-		dayCounter = 0;
+var soundCounter=0;
+function playSound(idString){
+	var sound=document.getElementById(idString);
+	if (soundCounter==0){
+		sound.play();
+		soundCounter++;
+	} else if (soundCounter==1){
+		sound.pause();
+		soundCounter=0;
 	}
 }
 
-var counter = 0;
-function showInventory(idString){
-	element = document.getElementById(idString);
-	if(counter==0){
-		element.style.display='block';
-		counter++;
-	} else if (counter==1){
-		element.style.display='none';
-		counter=0;
-	}
+var showCounter=0;
+function show(idString){
+element=document.getElementById(idString);
+if(showCounter==0){
+	element.style.display='block';
+	showCounter++
+}else if(showCounter==1){
+	element.style.display='none';
+	showCounter=0;
+}
+}
+
+var hideCounter=0;
+function hide(idString){
+element=document.getElementById(idString);
+if(hideCounter==0){
+	element.style.display='none';
+	hideCounter++
+}else if(hideCounter==1){
+	element.style.display='block';
+	hideCounter=0;
+}
 }
